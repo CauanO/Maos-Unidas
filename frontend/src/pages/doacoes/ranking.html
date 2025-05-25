@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ranring de Doações</title>
+        <title>Ranking de Doações</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -13,6 +13,10 @@
         </style>
     </head>
     <body class="bg-light">
+        <a href="../sistema/index.html" class="position-absolute top-0 start-0 m-4">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/back.png" alt="Voltar" width="24" />
+        </a>
+
         <div class="container mt-5">
             <div class="text-center mb-4">
                 <button
@@ -33,17 +37,10 @@
                 <p class="text-muted text-center">
                     Conheça as ONGs que mais receberam doações
                 </p>
-
-                <div>
-                    <div>
-                        <span>1</span>
-                        <img src="https://img.icons8.com/color/48/000000/prize.png" alt="Troféu" width="24">
-                    </div>
-
-                    <img src="https://img.icons8.com/emoji/48/heart-hands.png" alt="">
-                </div>
-
+                <div id="lista-ongs"></div>
             </div>
         </div>
+
+        <script src="script/script.js"></script>
     </body>
 </html>
