@@ -11,7 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   if (userInput === validUser && passInput === validPass) {
     // Login ok, redireciona
-    window.location.href = "../feed.html";
+    window.location.href = "./frontend/feed.html";
   } else {
     // Mostrar erro
     errorDiv.textContent = "Usuário ou senha incorretos.";
