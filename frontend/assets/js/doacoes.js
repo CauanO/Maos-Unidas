@@ -4,7 +4,7 @@ const ongs = [
         valor: 2000,
         cidade: "São Paulo",
         data: "10/05/2024",
-        avatar: "./images/Instituto_Esperança.png",
+        avatar: "./assets/img/Instituto_Esperança.png",
         icone: "https://img.icons8.com/color/48/000000/prize.png",
     },
     {
@@ -12,7 +12,7 @@ const ongs = [
         valor: 1750,
         cidade: "Belo Horizonte",
         data: "08/05/2024",
-        avatar: "./images/Associação_Vida_Nova.png",
+        avatar: "./assets/img/Associação_Vida_Nova.png",
         icone: "",
     },
     {
@@ -20,7 +20,7 @@ const ongs = [
         valor: 1500,
         cidade: "Rio de Janeiro",
         data: "05/05/2024",
-        avatar: "./images/Amigos_do_Bem.png",
+        avatar: "./assets/img/Amigos_do_Bem.png",
         icone: "",
     },
     {
@@ -28,7 +28,7 @@ const ongs = [
         valor: 1400,
         cidade: "Salvador",
         data: "02/05/2024",
-        avatar: "./images/Projeto_Sementes.png",
+        avatar: "./assets/img/Projeto_Sementes.png",
         icone: "",
     },
     {
@@ -36,7 +36,7 @@ const ongs = [
         valor: 1300,
         cidade: "Fortaleza",
         data: "01/05/2024",
-        avatar: "./images/Ação_Solidária.png",
+        avatar: "./assets/img/Ação_Solidária.png",
         icone: "",
     },
     {
@@ -44,7 +44,7 @@ const ongs = [
         valor: 1250,
         cidade: "Recife",
         data: "29/04/2024",
-        avatar: "./images/Cuidar_Mais.jpeg",
+        avatar: "./assets/img/Cuidar_Mais.jpeg",
         icone: "",
     },
     {
@@ -52,7 +52,7 @@ const ongs = [
         valor: 1200,
         cidade: "Manaus",
         data: "27/04/2024",
-        avatar: "./images/Luz_Para_Todos.png",
+        avatar: "./assets/img/Luz_Para_Todos.png",
         icone: "",
     },
     {
@@ -60,7 +60,7 @@ const ongs = [
         valor: 1150,
         cidade: "Curitiba",
         data: "26/04/2024",
-        avatar: "./images/Maos_Unidas.png",
+        avatar: "./assets/img/Maos_Unidas.png",
         icone: "",
     },
     {
@@ -68,7 +68,7 @@ const ongs = [
         valor: 1800,
         cidade: "Salvador - BA",
         data: "25/04/2024",
-        avatar: "./images/vitoria.png",
+        avatar: "./assets/img/vitoria.png",
         icone: "",
     },
     {
@@ -76,7 +76,7 @@ const ongs = [
         valor: 1000,
         cidade: "Porto Alegre",
         data: "24/04/2024",
-        avatar: "./images/ONG_do_Bem.png",
+        avatar: "./assets/img/ONG_do_Bem.png",
         icone: "",
     },
 ];
@@ -88,11 +88,11 @@ function renderizarOngs() {
         const card = document.createElement("div");
         let medalha = "";
         if (index === 0) {
-            medalha = "./images/medalha-de-ouro.png";
+            medalha = "./assets/img/medalha-de-ouro.png";
         } else if (index === 1) {
-            medalha = "./images/medalha-de-prata.png";
+            medalha = "./assets/img/medalha-de-prata.png";
         } else if (index === 2) {
-            medalha = "./images/medalha-de-bronze.png";
+            medalha = "./assets/img/medalha-de-bronze.png";
         }
         card.className = "d-flex align-items-start gap-3 mb-3";
         card.innerHTML = `
