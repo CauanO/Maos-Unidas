@@ -155,16 +155,51 @@ body {
 }
 
 /* Footer icons */
-.post-footer {
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
-    padding-top: 12px;
-    border-top: 1px solid #ddd;
-    color: #555;
-    font-size: 20px;
-}
-
-.post-footer i {
+    align-items: center;
+    height: 60px;
+    z-index: 1000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
     cursor: pointer;
-    user-select: none;
-}
+    padding: 6px 8px;
+  }
+  
+  .footer-nav-item svg {
+    display: block;
+  }
+  
+  .footer-nav-item:hover,
+  .footer-nav-item[aria-current="page"] {
+    color: #4caf50; /* verde doação */
+  }
+  
+  .footer-profile-pic {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-nav {
+      display: none; 
+    }
+  }
+  
