@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
+/* Estilo global de transição */
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+/* Ao carregar, o body ganha essa classe e aparece suavemente */
+body.page-loaded {
+  opacity: 1;
+}
+
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #f8f9fa;

@@ -17,7 +17,7 @@
     </div> -->
 
     <header class="header" aria-label="Cabeçalho da aplicação">
-      <img class="logo" src="assets/img/mãos_unidas_logo.png" style="border-radius: 50%;" alt="Logo Mãos Unidas" />
+      <a href="perfil.html"><img class="logo" src="assets/img/mãos_unidas_logo.png" style="border-radius: 50%;" alt="Logo Mãos Unidas" /></a>
       <input type="search" class="search-input" placeholder="Pesquisar" aria-label="Campo de pesquisa" />
       <a href="opcoes.html" style="text-decoration: none; color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
         <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
@@ -243,11 +243,19 @@
       <span style="color: black;">Doações</span>
     </a>
     <a href="../frontend/perfil.html" class="footer-nav-item" title="Perfil">
-      <img class="footer-profile-pic" src="../assets/img/perfil.jpg" alt="Foto de perfil" />
+      <img class="footer-profile-pic" src="assets/img/Maos_Unidas.png" alt="Foto de perfil" />
       <span style="color: black;">Perfil</span>
     </a>
   </footer>
+
+  <script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("page-loaded");
+  });
+</script>
   
 </body>
 
 </html>
+
+
